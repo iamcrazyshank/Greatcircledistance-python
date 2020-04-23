@@ -1,6 +1,11 @@
 # Intercom-greatcircledist
 Take home test Assessment
 
+Installation
+------------
+
+Install $project by running:
+
 
 Instructions:
 1. Language : Python 3.8
