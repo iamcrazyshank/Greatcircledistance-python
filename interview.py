@@ -1,15 +1,17 @@
 ## Intercom
 ## take-home tests
+##Shashank Chandran
+##shashankchandran1994@gmail.com
 
 from math import radians, degrees, sin, cos, asin, acos, sqrt
 import json
 import sys
 import argparse
 
-
 #Global Variable for Output file name
 filename = ''
-#defining class object for user data
+
+#Defining class object for user data
 class UserData:
 
     def __init__(self, user_id, user_name, latitude, longitude):
@@ -53,7 +55,7 @@ def checkvalid_lat_long(lat, lng):
         return False
 
 
-    
+ #method inputs user data and returns true if customer < 100km else false using great circle formula   
 def great_circle(userdata):
     #Dublin office Lat Long
     Dub_off_Lat = 53.339428
@@ -69,6 +71,8 @@ def great_circle(userdata):
     else :
         return False
 
+        
+#Method to iterate throught the user list and search for customers within 100kms
 def getnearbycustomers(userObjList):
    #declare Empty List
     near_by_cust_list=[]
@@ -108,7 +112,7 @@ def readfile(inputfile_name,output_filename):
     except IOError:    
         #This means that the file does not exist 
         print ("Input File not found")
-
+#Function call
     getnearbycustomers(userObjList)
 
 
