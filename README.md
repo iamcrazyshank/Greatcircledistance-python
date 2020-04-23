@@ -41,5 +41,4 @@ Testing the code:
   -  argument 2 expected ouput file 
 
 2. Output :
-  - ~ Input Filename: customers.txt
-  - ~ Output Filename: output_intercomm.txt
+  ![Alt text](/output_Screenshot.png?raw=true "Output screenshot")
