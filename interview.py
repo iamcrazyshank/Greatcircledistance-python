@@ -6,7 +6,6 @@ import json
 import sys
 import argparse
 
-#python interview.py  customers.txt output1.txt
 
 #Global Variable for Output file name
 filename = ''

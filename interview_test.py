@@ -5,7 +5,7 @@ from interview import checkvalid_lat_long
 from interview import UserData
 import random
 
-#python -m pytest interview_test.py customers.txt output_intercom.txt
+
 
 class UserDataTest(unittest.TestCase):
     def setUp(self):
